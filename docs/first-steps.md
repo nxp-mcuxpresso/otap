@@ -5,7 +5,7 @@ To access related tools, use the [top right panel](#the-top-right-panel).
 To begin, perform the following steps:
 
 * Download the SDK from [MCUXpresso](https://mcuxpresso.nxp.com/en/select) (account required).
-* Write an OTA server application and OTA client application on two NXP microcontroller platforms?.
+* Write an OTA server application and OTA client application on two NXP microcontroller platforms.
 
 > [!IMPORTANT]  
 > Use the ***same*** SDK version for building both applications.
@@ -15,8 +15,8 @@ To build and flash, perform the following steps:
 * Build with IAR or MCUXpresso IDE.
 * Flash using Flash Loader (Connectivity Tool Suite) or J-Link Commander. 
 
-**Before attempting an OTA transfer, familiarize yourself with the boards using [_IAR Embedded Workbench IDE_](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/boards/Wireless/k32w148evk/gettingStarted/topics/running_a_demo_application_using_iar.html), [_MCUXpresso IDE_](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/boards/Wireless/k32w148evk/gettingStarted/topics/run_a_demo_using_mcuxpresso_ide.html) or [_MCUXpresso for VS Code_](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/gsd/run_a_demo_using_mcuxvsc.html).**  
-The links above refer to the K32W148-EVK board. If you are using a different board, navigate to the __Supported Boards__ menu in the SDK documentation and select the one that matches your setup.
+**Before attempting an OTA transfer, familiarize yourself with the boards using [_IAR Embedded Workbench IDE_](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/boards/MCX/mcxw71evk/gettingStarted/topics/running_a_demo_application_using_iar.html), [_MCUXpresso IDE_](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/boards/MCX/mcxw71evk/gettingStarted/topics/running_a_demo_using_mcuxpresso_ide.html) or [_MCUXpresso for VS Code_](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/gsd/run_a_demo_using_mcuxvsc.html).**  
+The links above refer to the MCXW71-EVK board. If you are using a different board, navigate to the __Supported Boards__ menu in the SDK documentation and select the one that matches your setup.
 
 To connect to a device, perform the following steps:
 1. Select the communication protocol corresponding to your use-case.

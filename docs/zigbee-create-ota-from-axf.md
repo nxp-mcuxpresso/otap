@@ -11,9 +11,9 @@ Steps for creating an `.ota` file from `.axf` or `.elf`:
 
 1. Download the Software Development Kit corresponding to your board from [mcuxpresso.nxp.com](https://mcuxpresso.nxp.com/en/select).
 
-2. Download the [ZigBee 3.0 IoT Control Bridge](https://www.nxp.com/docs/en/application-note/JN-AN-1216.zip) and flash the application onto your board.
+2. Download the [JN-AN-1247 control bridge application note](https://www.nxp.com/webapp/sps/download/license.jsp?colCode=JN-AN-1247) and flash the application onto your board.
 
-3. To build the project for the _router_ application, use the MCUXpresso IDE. It can be found at `/boards/[your-board]/wireless_examples/zigbee`.
+3. To build the project for the _router_ application, use the MCUXpresso IDE. It can be found at `[sdk_root]/boards/[your-board]/wireless_examples/zigbee`.
 
 4. In the build directory, both `.ota` and `.elf`/.`axf` files are available. Pick an `.elf`/`.axf` file and drag & drop it into the OTAP tool.
 
