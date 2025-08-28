@@ -58,14 +58,14 @@
 
 - Updated SPSDK and fixed bugs in the filtering section.
 
-## 1.0.2 2022-04-18 
+## 1.0.2 - 2022-04-18 
 
 - Added json configuration windows, integrated SPSDK, and added support for.s19 files.
 
-## 1.0.1 2022-03-04
+## 1.0.1 - 2022-03-04
 
 - Added support for KW45B41Z-EVK.
 
-## 1.0.0 2021-12-01
+## 1.0.0 - 2021-12-01
 
 - Initial Release.
